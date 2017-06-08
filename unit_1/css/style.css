@@ -1,7 +1,19 @@
-body {
-	background-color: #6D1C54;
+div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
 }
 
-h1, p {
-	color: #E1F5C4;
+#name {
+	background: red;
+}
+
+#hex {
+	background: #ffffff;
+}
+
+#rgb {
+	background: rgb(255,255,255);
 }

@@ -1,0 +1,30 @@
+body {
+
+background-color: #3a3652;
+color: #a3a7bf;
+font-family: Arial;
+
+}
+
+a {
+
+color: #fff;
+text-decoration: none;
+
+}
+
+h1 {
+
+color: #fff;
+
+}
+
+h2 {
+
+color: #fff;
+}
+
+
+#slogan {
+	font-style: italic;
+}
