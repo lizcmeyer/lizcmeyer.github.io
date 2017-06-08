@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Lora');
 
 body {
+	/* Positioning */
+
+	/* Display & Box Model */
+
+	/* Color */
 	background-color: #575373;
 	color: #a3a7bf;
+
+	/* Text */
 	font-family: 'Lora', serif;
 	font-size: 16px;
-	margin: 3em;
+
+	/* Other */
 }
 
 a {
@@ -22,10 +30,11 @@ h1 {
 }
 
 h2 {
+	margin: 1em;
 	color: #fff;
 	font-size: 2em;
 	font-family: 'Cantarell', sans-serif;
-	margin: 1em;
+	
 }
 
 p {
@@ -33,20 +42,29 @@ p {
 }
 
 img {
-	margin: 2em;
+	margin: 0em;
 }
 
 #slogan {
+		text-align: center;
 	font-style: italic;
 	color: #fff;
-	text-align: center;
 }
 
 .panel-2 {
 	text-align: right;
-	background: gray;
+	background: black;
 }
 
 .panel-4 {
 	text-align: right;
+	background: black;
+}
+
+.Hero-Image {
+	width: 100%;
+}
+
+.Panel-Image {
+	margin: 1em;
 }
