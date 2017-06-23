@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Lora');
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
 	padding: 20px;
+	background-image: url("./images/wheel.png");
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: white;
+	margin: 1em;
 }
 
 aside {
@@ -25,9 +23,8 @@ article {
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
+	float: right;
 }
 
 section {
@@ -55,14 +52,17 @@ body {
 a {
 	color: #fff;
 	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
 }
 
 h1 {
 	color: #fff;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-family: 'Cantarell', sans-serif;
 	text-align: center;
-
+	margin-top: 9em;
 }
 
 h2 {
@@ -70,7 +70,7 @@ h2 {
 	color: #fff;
 	font-size: 2em;
 	font-family: 'Cantarell', sans-serif;
-	
+
 }
 
 p {
@@ -81,10 +81,40 @@ img {
 	margin: 0em;
 }
 
+ul {
+	font-size: 1.75em;
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 2em;
+}
+
+li a:hover {
+	background: black;
+	color: purple;
+	text-decoration: none;
+}
+
+#two {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 #slogan {
-		text-align: center;
+	text-align: center;
 	font-style: italic;
 	color: #fff;
+	margin: 1em;
+}
+
+#utility-nav {
+	float: left;
+	font-size: 1em;
+	padding: 1em;
 }
 
 .panel-2 {
@@ -97,10 +127,26 @@ img {
 	background: black;
 }
 
-.Hero-Image {
-	width: 100%;
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
 }
 
-.Panel-Image {
-	margin: 1em;
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
